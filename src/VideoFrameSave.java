@@ -49,6 +49,7 @@ public class VideoFrameSave {
             if(key == 27)
                 break;
         }
+        cam.release();
         videoWriter.release(); // !!!!
         HighGui.destroyAllWindows();
         System.exit(0);

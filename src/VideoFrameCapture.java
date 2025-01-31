@@ -10,6 +10,7 @@ public class VideoFrameCapture {
 
         Mat src = new Mat();
 
+//        VideoCapture cam = new VideoCapture("./sc07.avi");
         VideoCapture cam = new VideoCapture(0);
 
         if(!cam.isOpened()) return;
